@@ -75,8 +75,8 @@ If that vision excites you, dive into the code, start tinkering, and help make *
 ### 📥 Developer quick-start
 
 ```bash
-git clone https://github.com/Hyatlas/hyatlas-launcher.git
-cd hyatlas-launcher
+git clone https://github.com/Hyatlas/hyatlas-game.git
+cd hyatlas-game
 dotnet run
 # The launcher starts, fetches the latest nightly, and launches the game
 ```
