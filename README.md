@@ -1,4 +1,4 @@
-# Hyatlas Launcher
+# Hyatlas Game
 
 **Hyatlas** was born after the unfortunate news that *Hytale* will never see the light of day.  
 We were truly excited for it—so we decided to carry that dream forward in an **open-source** project the whole community can shape.
@@ -17,8 +17,8 @@ We were truly excited for it—so we decided to carry that dream forward in an *
 
 | Repository | Purpose |
 |------------|---------|
-| **[hyatlas-game](https://github.com/Hyatlas/hyatlas-game)** | Unity project (client + server); core gameplay and engine |
-| **hyatlas-launcher** *(this repo)* | Bootstrap installer, auto-patcher, update logic |
+| **hyatlas-game** | Unity project (client + server); core gameplay and engine |
+| **[hyatlas-modkit](https://github.com/Hyatlas/hyatlas-launcher)** | Bootstrap installer, auto-patcher, update logic |
 | **[hyatlas-modkit](https://github.com/Hyatlas/hyatlas-modkit)** | SDK & APIs for building mods and plugins |
 | **[hyatlas-mod-examples](https://github.com/Hyatlas/hyatlas-mod-examples)** | Sample mods, smoke tests, CI templates |
 | **[hyatlas-server-toolkit](https://github.com/Hyatlas/hyatlas-server-toolkit)** | CLI to package, sign, and publish self-hosted servers |
