@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Earth",
+    "isSolid": true,
+    "isOpaque": true,
+    "textureFolder": "Blocks/Earth",
+    "modelPath": null,
+    "collisionShape": "Cube",
+    "rotationFlags": "FourWay"
+  },
+  {
+    "id": 2,
+    "name": "Log",
+    "isSolid": true,
+    "isOpaque": true,
+    "textureFolder": "Blocks/Log",
+    "modelPath": null,
+    "collisionShape": "Cylinder",
+    "rotationFlags": "Free"
+  }
+]

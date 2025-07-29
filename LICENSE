@@ -620,6 +620,19 @@ an absolute waiver of all civil liability in connection with the
 Program, unless a warranty or assumption of liability accompanies a
 copy of the Program in return for a fee.
 
+  18. Restriction of use for Game-forks and third party game developers
+
+Notwithstanding any other provision of this Licence, is prohibited
+from using the Software (in whole or in part) in any other open source project,
+whose primary goal is to develop or offer a stand-alone game that competes with
+or emulates the Hyatlas or the games it powers. Licensees may only use and further
+develop the software within a Hyatlas server, but not to create a separate game
+under a different open source code base.
+Our aim here is to develop an independent game with the community that fulfils all wishes and requirements.
+It is not our goal to create hundreds of different but identical games from the code.
+Otherwise this leads to a catastrophe in the community
+
+
                      END OF TERMS AND CONDITIONS
 
             How to Apply These Terms to Your New Programs

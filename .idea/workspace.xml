@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="edfb6069-9d34-4f0e-bdb3-56ad359e1693" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/blocks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blocks/Block.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blocks/BlockDefinition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blocks/BlockDefinitionRegistry.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blocks/BlockInitializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blocks/BlockRegistry.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blocks/Enums/CollisionShape.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blocks/Enums/RotationFlags.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blocks/IBlock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blocks/Types/AirBlock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blocks/Types/EarthBlock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chunks/Chunk.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chunks/ChunkMeshGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chunks/ChunkRenderCache.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chunks/ChunkRenderComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chunks/ChunkSerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chunks/IChunkStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chunks/MeshService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Entity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/NPC/ NPC.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/NPC/AIState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Player/PlayerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game/Game1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HyatlasGame.Core.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LauncherIntegration/ILauncherStarter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LauncherIntegration/LauncherStarter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking/INetworkClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking/INetworkServer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking/Packets/BlockUpdatePacket.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking/Packets/NPCUpdatePacket.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serialization/ChunkDataSerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serialization/ISerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Constants/ZoneConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Enums/WorldZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Utils/CameraController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Utils/TextureRegion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shared/Utils/Vector3Int.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/World/CompositeWorldGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/World/FlatWorldGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/World/IWorldGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/World/World.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/World/WorldManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zones/HellZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zones/IZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zones/OrbitZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zones/SkyZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zones/StratosphereZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zones/SurfaceZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zones/UndergroundZone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ChunkTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/RendererTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/WorldTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;realHyatlas&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hyatlas/hyatlas-game.git&quot;,
+    &quot;accountId&quot;: &quot;4147a97c-f177-47d3-8943-76d3beed1f3f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="30SqLJjse5EcBgh9LRppAHZgwpY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tjany\PycharmProjects\hyatlas-game" />
+      <recent name="C:\Users\tjany\PycharmProjects\hyatlas-game\src" />
+      <recent name="C:\Users\tjany\PycharmProjects\hyatlas-game\src\Zones" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edfb6069-9d34-4f0e-bdb3-56ad359e1693" name="Changes" comment="" />
+      <created>1753631265314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753631265314</updated>
+    </task>
+    <servers />
+  </component>
+</project>

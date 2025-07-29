@@ -1,0 +1,17 @@
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\obj\Debug\net6.0\HyatlasGame.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\obj\Debug\net6.0\HyatlasGame.Core.AssemblyInfoInputs.cache
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\obj\Debug\net6.0\HyatlasGame.Core.AssemblyInfo.cs
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\obj\Debug\net6.0\HyatlasGame.Core.csproj.CoreCompileInputs.cache
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\obj\Debug\net6.0\HyatlasGame.Core.sourcelink.json
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\bin\Debug\net6.0\HyatlasGame.Core.deps.json
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\bin\Debug\net6.0\HyatlasGame.Core.dll
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\bin\Debug\net6.0\HyatlasGame.Core.pdb
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\obj\Debug\net6.0\HyatlasGame.Core.dll
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\obj\Debug\net6.0\refint\HyatlasGame.Core.dll
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\obj\Debug\net6.0\HyatlasGame.Core.pdb
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\obj\Debug\net6.0\ref\HyatlasGame.Core.dll
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\obj\Debug\net6.0\HyatlasGame.Core.csproj.AssemblyReference.cache
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\bin\Debug\net6.0\blocks.json
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\bin\Debug\net6.0\Content\blocks.json
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\bin\Debug\net6.0\Content\Blocks\Earth\earth.png
+C:\Users\tjany\PycharmProjects\hyatlas-game\src\bin\Debug\net6.0\Content\Blocks\Log\log.png
