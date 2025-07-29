@@ -25,7 +25,7 @@ See the `LICENSE` file for details.
 
 | Repository                                                          | Purpose                                               |
 |---------------------------------------------------------------------|-------------------------------------------------------|
-| **hyatlas-game**         | Core and engine of the Hyatlas Game                   |
+| **hyatlas-game (this repo)**         | Core and engine of the Hyatlas Game                   |
 | **[hyatlas-launcher](https://github.com/Hyatlas/hyatlas-launcher)** | Windows/Apple Launcher to install the game            |
 | **[hyatlas-web](https://github.com/Hyatlas/hyatlas-web)**                                         | Verification/Website/Platform                         |
 | **[hyatlas-modkit](https://github.com/Hyatlas/hyatlas-modkit)**     | Tools for creating mods                |
