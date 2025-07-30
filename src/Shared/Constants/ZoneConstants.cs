@@ -34,5 +34,13 @@ namespace HyatlasGame.Core.Shared.Constants
                 throw new KeyNotFoundException($"Keine Höhenwerte für Zone {zone} definiert.");
             return range;
         }
+
+        public static WorldZone GetZoneForY(int y)
+        {
+            foreach (var kv in HeightRanges)
+                if (y >= kv.Value.MinY && y <= kv.Value.MaxY)
+                    return kv.Key;
+            return y < HeightRanges[WorldZone.Hell].MinY ? WorldZone.Hell : WorldZone.Orbit;
+        }
     }
 }
