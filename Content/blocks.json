@@ -10,6 +10,26 @@
     "rotationFlags": "FourWay"
   },
   {
+    "id": 3,
+    "name": "Underground",
+    "isSolid": true,
+    "isOpaque": true,
+    "textureFolder": "Blocks/Underground",
+    "modelPath": null,
+    "collisionShape": "Cube",
+    "rotationFlags": "FourWay"
+  },
+  {
+    "id": 4,
+    "name": "Hell",
+    "isSolid": true,
+    "isOpaque": true,
+    "textureFolder": "Blocks/Hell",
+    "modelPath": null,
+    "collisionShape": "Cube",
+    "rotationFlags": "FourWay"
+  },
+  {
     "id": 2,
     "name": "Log",
     "isSolid": true,
