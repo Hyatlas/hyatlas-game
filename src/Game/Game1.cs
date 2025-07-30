@@ -9,6 +9,7 @@ using HyatlasGame.Core.Chunks;
 using HyatlasGame.Core.Entities.Player;
 using HyatlasGame.Core.Rendering;
 using HyatlasGame.Core.Shared.Constants;
+using HyatlasGame.Core.Shared.Enums;
 using HyatlasGame.Core.Shared.Utils;
 using HyatlasGame.Core.World;
 using HyatlasGame.Core.Zones;
@@ -35,6 +36,7 @@ namespace HyatlasGame.Core
         private MeshService         _meshService = default!;
         private ChunkRenderCache    _renderCache = default!;
         private PlayerController    _player      = default!;
+        private WorldZone _currentZone = WorldZone.Surface;
 
         /* – Overlay – */
         private SpriteBatch _spriteBatch = default!;
@@ -67,6 +69,8 @@ namespace HyatlasGame.Core
         protected override void Initialize()
         {
             base.Initialize();
+
+            GraphicsDeviceHelper.Initialize(GraphicsDevice);
 
             // 1) Block-Definitions laden
             string defsPath = Path.Combine(Content.RootDirectory, "blocks.json");
@@ -129,6 +133,13 @@ namespace HyatlasGame.Core
                 _player.Position,
                 surfaceBlockRadius:     SURFACE_RADIUS,
                 undergroundBlockRadius: UNDERGROUND_RADIUS);
+
+            var zone = ZoneConstants.GetZoneForY((int)MathF.Floor(_player.Position.Y));
+            if (zone != _currentZone)
+            {
+                _currentZone = zone;
+                Console.WriteLine($"Entered zone: {_currentZone}");
+            }
 
             _selectedBlock = TryPickBlock(_camera.Position, _camera.Front, PICK_DISTANCE);
 
